@@ -16,7 +16,7 @@ for i in range(len(A)):
     A[i], A[min_idx] = A[min_idx], A[i]
 
 print("sorted array are:")
-
+#print all elements by index
 for i in range(len(A)):
     print("%d" %A[i], end=" ")
 
